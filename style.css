@@ -82,3 +82,15 @@ button:hover {
   text-align: center;
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
+.card { transition: transform 0.3s; }
+.card:hover { transform: translateY(-6px); }
+
+.card h3 { color: #14bc35; margin: 10px 0 4px; }
+.card p { color: #e63946; font-weight: bold; }
+
+h2 { color: #1e3c72; margin-bottom: 12px; }
+
+form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin-top: 20px; }
+form input, form textarea { padding: 10px; border: 1px solid #ccc; border-radius: 8px; }
+
+#offer { color: green; font-weight: bold; margin-top: 10px; }
